@@ -1,0 +1,462 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Worldwide Explorer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="vacc.css">
+    
+</head>
+
+<div class="sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+        <div class="container-fluid">
+            <div class="card-cover"> <a class="navbar-brand" href="#"><b> MEMORY TRAVELS</b></a></div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about.html">about us</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="/contact.html">contact</a>
+                    </li>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item " href="/login.html">login</a></li>
+                            <li><a class="dropdown-item " href="/blog.html">blog</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item " href="#">more about us</a></li>
+                        </ul>
+                    </li>
+                    <button type="button" class="btn btn-warning mx-2">Book Now</button>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<div id="carouselExampleDark" class="carousel carousel-fade slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <!-- <video autoplay muted loop id="myVideo">
+            <source src="image/vid1.mp4" type="video/mp4">
+        </video> -->
+       
+
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+            <img height="550" src="image/natalya-zaritskaya-SIOdjcYotms-unsplash.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h2>Travel With fun</h2>
+                <b>its time to have some adventure with us.</b>
+            </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+            <img height="550" src="image/img7.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h2>Are You Bored?</h2>
+                <p>then lets go to trip for some exicting experience.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img height="550" src="image/img11.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h2>This Summer Is For you</h2>
+                <p>dont miss the fun part and join the biggest party with us.</p>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<div class="container my-4">
+    <div class="row">
+        <div class="col-lg-4 card px-4 py-4" style="background-color:rgb(233, 189, 189)">
+            <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="image/img5.jpg">
+
+            <h2 class="fw-normal">Travel Guide</h2>
+            <p>We will provide a personal guide so that you enjoy to fullest</p>
+            <p><a class="btn btn-secondary" href="#">View details »</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4 card px-4 py-4" style="background-color:rgb(233, 189, 189)">
+            <img class="bd-placeholder-img rounded-circle" width="140" height="140"
+                src="image/minh-pham--o4PpHE9uG0-unsplash.jpg">
+            <h2 class="fw-normal">Activities</h2>
+            <p>All fun activities will be provided from swimming to boating.</p>
+            <p><a class="btn btn-secondary" href="#">View details »</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4 card px-4 py-4" style="background-color:rgb(233, 189, 189)">
+            <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="image/img1.jpg">
+
+            <h2 class="fw-normal">Travel Arrangment</h2>
+            <p>And lastly this, you dont have to worry about equiments all will be provided by team.</p>
+            <p><a class="btn btn-secondary" href="#">View details »</a></p>
+        </div><!-- /.col-lg-4 -->
+    </div>
+</div>
+<br>
+<br>
+<br>
+<hr>
+<div>
+    <h2 class="px-2 mx-2 my-4">TOURIST FEEDBACK</h2>
+</div>
+<div class="album py-5 bg-light">
+    <div class="container">
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" width="100%" height="150px" src="image/img14.jpg">
+                    <div class="container justify-content-centre align-item-center">
+                        <h2>Experience</h2>
+                        <div class="form-check form-check-inline justify-content-centre align-items-center ">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                            <label class="form-check-label" for="inlineCheckbox1">Excellent</label>
+                        </div>
+                        <div class="form-check form-check-inline align-items-center">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">Good</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">Poor</label>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" width="100%" height="150px" src="image/img19.jpg">
+
+                    <div class="container justify-content-centre align-item-center">
+                        <h2>Experience</h2>
+                        <div class="form-check form-check-inline justify-content-centre align-items-center ">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                            <label class="form-check-label" for="inlineCheckbox1">Excellent</label>
+                        </div>
+                        <div class="form-check form-check-inline align-items-center">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">Good</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">Poor</label>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" width="100%" height="150px" src="image/img22.jpg">
+                    <div class="container justify-content-centre align-item-center">
+                        <h2>Experience</h2>
+                        <div class="form-check form-check-inline justify-content-centre align-items-center ">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                            <label class="form-check-label" for="inlineCheckbox1">Excellent</label>
+                        </div>
+                        <div class="form-check form-check-inline align-items-center">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">Good</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">Poor</label>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" width="150px" height="200px" src="image/img20 (4).jpg">
+                    <div class="container justify-content-centre align-item-center">
+                        <h2>Experience</h2>
+                        <div class="form-check form-check-inline justify-content-centre align-items-center ">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                            <label class="form-check-label" for="inlineCheckbox1">Excellent</label>
+                        </div>
+                        <div class="form-check form-check-inline align-items-center">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">Good</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">Poor</label>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" width="150px" height="200px" src="image/img21.jpg">
+
+                    <div class="container justify-content-centre align-item-center">
+                        <h2>Experience</h2>
+                        <div class="form-check form-check-inline justify-content-centre align-items-center ">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                            <label class="form-check-label" for="inlineCheckbox1">Excellent</label>
+                        </div>
+                        <div class="form-check form-check-inline align-items-center">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">Good</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">Poor</label>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" width="150px" height="200px" src="image/img20 (1).jpg">
+
+                    <div class="container justify-content-centre align-item-center">
+                        <h2>Experience</h2>
+                        <div class="form-check form-check-inline justify-content-centre align-items-center ">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                            <label class="form-check-label" for="inlineCheckbox1">Excellent</label>
+                        </div>
+                        <div class="form-check form-check-inline align-items-center">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">Good</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">Poor</label>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" width="200%" height="150px" src="image/img23 (1).jpg">
+
+                    <div class="container justify-content-centre align-item-center">
+                        <h2>Experience</h2>
+                        <div class="form-check form-check-inline justify-content-centre align-items-center ">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                            <label class="form-check-label" for="inlineCheckbox1">Excellent</label>
+                        </div>
+                        <div class="form-check form-check-inline align-items-center">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">Good</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">Poor</label>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" width="150px" height="150px" src="image/img23 (2).jpg">
+                    <div class="container justify-content-centre align-item-center">
+                        <h2>Experience</h2>
+                        <div class="form-check form-check-inline justify-content-centre align-items-center ">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                            <label class="form-check-label" for="inlineCheckbox1">Excellent</label>
+                        </div>
+                        <div class="form-check form-check-inline align-items-center">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">Good</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">Poor</label>
+                        </div>
+                    </div>
+
+                    <div class="card-body">
+                        <p class="card-text">This is a wider carswsd with supporting text below as a natural lead-in to
+                            additional content. This content is a little bit longer.</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img class="bd-placeholder-img card-img-top" width="170px" height="150px" src="image/img15.jpg">
+                    <div class="container justify-content-centre align-item-center">
+                        <h2>Experience</h2>
+                        <div class="form-check form-check-inline justify-content-centre align-items-center ">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                            <label class="form-check-label" for="inlineCheckbox1">Excellent</label>
+                        </div>
+                        <div class="form-check form-check-inline align-items-center">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">Good</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                            <label class="form-check-label" for="inlineCheckbox2">Poor</label>
+                        </div>
+                    </div>
+                    <p class="card-text">This is a wider carswsd with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<br>
+<br>
+<footer class="ftco-footer bg-bottom" style="background-color: rgb(51, 50, 50)">
+    <div class="container" style="color: white">
+        <div class="row mb-5">
+            <div class="col-md">
+                <div class="ftco-footer-widget mb-4">
+                    <h2 class="ftco-heading-2 color-danger my-4">Vacation</h2>
+                    <p class="my-6">lets plan trip which is more challenging and enjoyable.hope you will cooperate with
+                        us</p>
+                    <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                        <li class="ftco-animate fadeInUp ftco-animated"><a href="#"><i class="bi bi-twitter"></i><span
+                                    class="icon-instagram"></span></a></li>
+                        <li class="ftco-animate fadeInUp ftco-animated"><a href="#"><span
+                                    class="icon-facebook"></span></a></li>
+                        <li class="ftco-animate fadeInUp ftco-animated"><a href="#"><span
+                                    class="icon-instagram"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="ftco-footer-widget mb-4 ml-md-5">
+                    <h2 class="ftco-heading-2">Infromation</h2>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="py-2 d-block">Online Enquiry</a></li>
+                        <li><a href="#" class="py-2 d-block">General Enquiries</a></li>
+                        <li><a href="#" class="py-2 d-block">Booking Conditions</a></li>
+                        <li><a href="#" class="py-2 d-block">Privacy and Policy</a></li>
+                        <li><a href="#" class="py-2 d-block">Refund Policy</a></li>
+                        <li><a href="#" class="py-2 d-block">Call Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="ftco-footer-widget mb-4">
+                    <h2 class="ftco-heading-2">Experience</h2>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="py-2 d-block">Adventure</a></li>
+                        <li><a href="#" class="py-2 d-block">Hotel and Restaurant</a></li>
+                        <li><a href="#" class="py-2 d-block">Beach</a></li>
+                        <li><a href="#" class="py-2 d-block">Nature</a></li>
+                        <li><a href="#" class="py-2 d-block">Camping</a></li>
+                        <li><a href="#" class="py-2 d-block">Party</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="ftco-footer-widget mb-4">
+                    <h2 class="ftco-heading-2">Have a Questions?</h2>
+                    <div class="block-23 mb-3">
+                        <ul>
+                            <li><span class="icon icon-map-marker"></span><span class="text">203 RAJENDRA NAGAR,
+                                    INDORE, INDIA</span></li>
+                            <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929
+                                    </span></a></li>
+                            <li><a href="#"><span class="icon icon-envelope"></span><span
+                                        class="text">info@yourdomain.com</span></a></li>
+
+                                    </ul>
+                                </div>
+                                <div class="wrapper">
+                                    <a class="hover-fx"><i class="fab fa-instagram"></i></a>
+                                    <a class="hover-fx"><i class="fab fa-twitter"></i></a>
+                                    <a class="hover-fx"><i class="fab fa-facebook"></i></a>
+                                    <a class="hover-fx"><i class="fab fa-telegram"></i></a>
+                                    
+                                </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <p>
+                    Copyright ©
+                    <script>document.write(new Date().getFullYear());</script>2022 All rights reserved<i
+                        class="icon-heart color-danger" aria-hidden="true"></i> by <a
+                        href="https://lets plan a trip .com" target="_blank">let's plan trip</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+    <script src="script.js"></script>

@@ -1,0 +1,14 @@
+{
+  "name": "vacction-plan",
+  "version": "1.0.0",
+  "description": "its a vacction website",
+  "main": "vacc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shubs",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
